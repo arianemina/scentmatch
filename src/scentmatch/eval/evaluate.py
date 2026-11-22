@@ -102,6 +102,15 @@ def full_report(name: str, score_fn, data: EvalData, split: str, proc: Path, fee
     for s in ("1", "2", "3-5", "6+"):
         us = [u for u in targets if seg.get(u) == s]
         out[f"NDCG@10[{s}]"] = float(np.mean([ndcg_at_k(rankings[u], targets[u], 10) for u in us]))
+      
+        out[f"Recall@20[{s}]"] = (
+            float(np.mean([
+                recall_at_k(rankings[u], targets[u], 20)
+                for u in us
+            ]))
+            if us else None
+        )
+  
     cold = set(np.flatnonzero(data.popularity == 0))
     cu = [u for u in targets if targets[u] & cold]
     out["Recall@20[cold perfumes]"] = float(np.mean([recall_at_k(rankings[u], targets[u], 20) for u in cu])) if cu else None
