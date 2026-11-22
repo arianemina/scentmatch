@@ -1,0 +1,537 @@
+[
+  {
+    "profile": "Woody",
+    "user_idx": 22108,
+    "history": [
+      {
+        "name": "L'eau Bleue d’Issey Pour Homme by Issey Miyake",
+        "notes": [
+          "ginger",
+          "mandarin orange",
+          "musk",
+          "orange",
+          "patchouli",
+          "rose",
+          "sandalwood",
+          "spicy accord"
+        ]
+      },
+      {
+        "name": "Armaf Shades Blue",
+        "notes": [
+          "ambergris",
+          "bergamot",
+          "cardamom",
+          "cedar",
+          "citrus accord",
+          "geranium",
+          "ginger",
+          "grape",
+          "jasmine",
+          "lemon",
+          "lime",
+          "mint",
+          "nutmeg",
+          "patchouli",
+          "pineapple",
+          "rosemary",
+          "sage",
+          "sandalwood",
+          "spicy accord",
+          "violet",
+          "white musk",
+          "woody notes"
+        ]
+      },
+      {
+        "name": "RASASI Al Wisam Day",
+        "notes": [
+          "amber",
+          "bergamot",
+          "cedar",
+          "clary sage",
+          "geranium",
+          "lavender",
+          "musk",
+          "oakmoss",
+          "oud",
+          "rose",
+          "sandalwood"
+        ]
+      },
+      {
+        "name": "ARMAF The Pride",
+        "notes": [
+          "bergamot",
+          "cinnamon",
+          "lemon",
+          "nutmeg",
+          "oakmoss",
+          "oriental accord",
+          "spicy accord",
+          "tonka bean",
+          "vanilla"
+        ]
+      },
+      {
+        "name": "Swiss Arabian Shaghaf",
+        "notes": [
+          "amber",
+          "aquatic notes",
+          "chypre",
+          "fresh notes",
+          "lavender",
+          "lemon",
+          "oakmoss",
+          "oriental accord",
+          "patchouli",
+          "sea notes"
+        ]
+      },
+      {
+        "name": "F Armaf Ventana Pour Homme",
+        "notes": [
+          "amber",
+          "bergamot",
+          "cedar",
+          "citrus accord",
+          "floral accord",
+          "floral notes",
+          "fruity accord",
+          "geranium",
+          "grapefruit",
+          "labdanum",
+          "lavender",
+          "lemon",
+          "mandarin orange",
+          "patchouli",
+          "precious woods",
+          "spicy accord",
+          "vetiver"
+        ]
+      },
+      {
+        "name": "Versace Pour Homme for Men",
+        "notes": [
+          "bergamot",
+          "bitter orange",
+          "cedar",
+          "citrus accord",
+          "clary sage",
+          "fruity accord",
+          "geranium",
+          "hyacinth",
+          "mineral amber",
+          "musk",
+          "neroli",
+          "orange",
+          "oud",
+          "tonka bean"
+        ]
+      },
+      {
+        "name": "RASASI Hawas",
+        "notes": [
+          "amber",
+          "apple",
+          "bergamot",
+          "cedar",
+          "cinnamon",
+          "citrus accord",
+          "earthy accord",
+          "floral accord",
+          "frankincense",
+          "freesia",
+          "fruity accord",
+          "grapefruit",
+          "heliotrope",
+          "iris",
+          "jasmine",
+          "jasmine sambac",
+          "lemon",
+          "lily",
+          "lily of the valley",
+          "melon",
+          "musk",
+          "oakmoss",
+          "orange",
+          "orange blossom",
+          "orchid",
+          "oud",
+          "patchouli",
+          "peach",
+          "pear",
+          "pineapple",
+          "plum",
+          "pomegranate",
+          "rose",
+          "sage",
+          "sandalwood",
+          "sea notes",
+          "smoke",
+          "spicy accord",
+          "spicy notes",
+          "tonka bean",
+          "tuberose",
+          "vanilla",
+          "vetiver",
+          "violet",
+          "woody notes"
+        ]
+      }
+    ],
+    "recommendations": [
+      {
+        "name": "Armaf Club de Nuit Man",
+        "notes": [
+          "amber",
+          "cinnamon",
+          "clove",
+          "ginger",
+          "grapefruit",
+          "leather",
+          "mandarin orange",
+          "mint",
+          "orange",
+          "patchouli",
+          "pepper",
+          "spicy accord",
+          "spicy notes",
+          "woody notes"
+        ],
+        "score": 0.6284,
+        "explanation": "Close to RASASI Hawas, which you loved · Shares spicy accord, patchouli and amber with what you love"
+      },
+      {
+        "name": "ARMAF TRES NUIT 3.4",
+        "notes": [
+          "ambergris",
+          "iris",
+          "lavender",
+          "lemon",
+          "sandalwood",
+          "spicy accord",
+          "violet"
+        ],
+        "score": 0.5431,
+        "explanation": "Shares lemon, spicy accord and sandalwood with what you love · Close to RASASI Hawas, which you loved"
+      },
+      {
+        "name": "Bentley Intense B140408",
+        "notes": [
+          "oriental accord",
+          "spicy accord"
+        ],
+        "score": 0.5225,
+        "explanation": "Close to RASASI Hawas, which you loved · Shares spicy accord and oriental accord with what you love"
+      }
+    ]
+  },
+  {
+    "profile": "Sweet",
+    "user_idx": 6903,
+    "history": [
+      {
+        "name": "Armaf Club De Nuit Intense",
+        "notes": [
+          "ambergris",
+          "apple",
+          "bergamot",
+          "birch",
+          "blackcurrant",
+          "fruity accord",
+          "jasmine",
+          "lemon",
+          "musk",
+          "patchouli",
+          "pineapple",
+          "rose",
+          "vanilla"
+        ]
+      },
+      {
+        "name": "Sofia Vergara",
+        "notes": [
+          "earthy accord",
+          "sandalwood",
+          "vanilla"
+        ]
+      },
+      {
+        "name": "Swiss Arabian Shaghaf Oud",
+        "notes": [
+          "oriental accord",
+          "oud",
+          "rose",
+          "saffron",
+          "vanilla"
+        ]
+      },
+      {
+        "name": "Lattafa Fakhar for Women",
+        "notes": [
+          "aldehydes",
+          "ambroxan",
+          "bergamot",
+          "floral accord",
+          "fruity accord",
+          "gardenia",
+          "honeysuckle",
+          "jasmine",
+          "lily",
+          "peony",
+          "pomegranate",
+          "rose",
+          "sandalwood",
+          "tuberose",
+          "vanilla",
+          "white musk"
+        ]
+      },
+      {
+        "name": "OUD VANILLE BY FRANCK OLIVIER",
+        "notes": [
+          "caramel",
+          "frankincense",
+          "jasmine",
+          "musk",
+          "orange",
+          "oud",
+          "patchouli",
+          "raspberry",
+          "rose",
+          "spicy accord",
+          "vanilla",
+          "violet",
+          "woody notes"
+        ]
+      },
+      {
+        "name": "Lattafa Musk Al Aroos For Women",
+        "notes": [
+          "amber",
+          "ambroxan",
+          "cedar",
+          "floral accord",
+          "floral notes",
+          "fruity accord",
+          "lemon",
+          "musk",
+          "sandalwood",
+          "vanilla",
+          "white musk"
+        ]
+      },
+      {
+        "name": "Lattafa Ajwad",
+        "notes": [
+          "amber",
+          "bergamot",
+          "cedar",
+          "cinnamon",
+          "floral accord",
+          "floral notes",
+          "fruity accord",
+          "fruity notes",
+          "jasmine",
+          "lemon",
+          "musk",
+          "musky notes",
+          "oriental accord",
+          "orris",
+          "pineapple",
+          "rose",
+          "sandalwood",
+          "vanilla"
+        ]
+      },
+      {
+        "name": "Lattafa Perfumes Nebras for Unisex",
+        "notes": [
+          "amber",
+          "cocoa",
+          "mandarin orange",
+          "musk",
+          "red berries",
+          "rose",
+          "tonka bean",
+          "vanilla"
+        ]
+      },
+      {
+        "name": "Lattafa Perfumes Khamrah for Unisex",
+        "notes": [
+          "amberwood",
+          "benzoin",
+          "bergamot",
+          "cinnamon",
+          "date",
+          "myrrh",
+          "nutmeg",
+          "spicy accord",
+          "tonka bean",
+          "tuberose",
+          "vanilla"
+        ]
+      }
+    ],
+    "recommendations": [
+      {
+        "name": "Yara by Lattafa Perfumes",
+        "notes": [
+          "amber",
+          "benzoin",
+          "black pepper",
+          "caramel",
+          "coffee",
+          "dry woods",
+          "floral accord",
+          "gourmand accord",
+          "heliotrope",
+          "iris",
+          "jasmine",
+          "labdanum",
+          "mandarin orange",
+          "musk",
+          "orange",
+          "orchid",
+          "patchouli",
+          "peach",
+          "pineapple",
+          "powdery notes",
+          "rose",
+          "sandalwood",
+          "tobacco",
+          "tropical fruits",
+          "vanilla"
+        ],
+        "score": 0.5314,
+        "explanation": "Shares vanilla, rose and musk with what you love · Close to Lattafa Ajwad, which you loved"
+      },
+      {
+        "name": "Lattafa Musk Mood for Unisex",
+        "notes": [
+          "citrus accord",
+          "floral accord",
+          "floral notes",
+          "fruity accord",
+          "fruity notes",
+          "musk",
+          "powdery notes",
+          "sandalwood",
+          "vanilla",
+          "white musk"
+        ],
+        "score": 0.5255,
+        "explanation": "Shares vanilla, fruity accord and musk with what you love · Close to Lattafa Perfumes Khamrah for Unisex, which you loved"
+      },
+      {
+        "name": "Armaf Club De Nuit",
+        "notes": [
+          "jasmine",
+          "rose"
+        ],
+        "score": 0.5106,
+        "explanation": "Shares rose and jasmine with what you love · Close to Armaf Club De Nuit Intense, which you loved"
+      }
+    ]
+  },
+  {
+    "profile": "Limited history",
+    "user_idx": 0,
+    "history": [
+      {
+        "name": "Lattafa Ajwad",
+        "notes": [
+          "amber",
+          "bergamot",
+          "cedar",
+          "cinnamon",
+          "floral accord",
+          "floral notes",
+          "fruity accord",
+          "fruity notes",
+          "jasmine",
+          "lemon",
+          "musk",
+          "musky notes",
+          "oriental accord",
+          "orris",
+          "pineapple",
+          "rose",
+          "sandalwood",
+          "vanilla"
+        ]
+      }
+    ],
+    "recommendations": [
+      {
+        "name": "Lattafa Fakhar for Women",
+        "notes": [
+          "aldehydes",
+          "ambroxan",
+          "bergamot",
+          "floral accord",
+          "fruity accord",
+          "gardenia",
+          "honeysuckle",
+          "jasmine",
+          "lily",
+          "peony",
+          "pomegranate",
+          "rose",
+          "sandalwood",
+          "tuberose",
+          "vanilla",
+          "white musk"
+        ],
+        "score": 0.5605,
+        "explanation": "Close to Lattafa Ajwad, which you loved · Shares fruity accord, rose and bergamot with what you love"
+      },
+      {
+        "name": "Swiss Arabian Shaghaf Oud",
+        "notes": [
+          "oriental accord",
+          "oud",
+          "rose",
+          "saffron",
+          "vanilla"
+        ],
+        "score": 0.5471,
+        "explanation": "Close to Lattafa Ajwad, which you loved · Shares oriental accord, rose and vanilla with what you love"
+      },
+      {
+        "name": "Yara by Lattafa Perfumes",
+        "notes": [
+          "amber",
+          "benzoin",
+          "black pepper",
+          "caramel",
+          "coffee",
+          "dry woods",
+          "floral accord",
+          "gourmand accord",
+          "heliotrope",
+          "iris",
+          "jasmine",
+          "labdanum",
+          "mandarin orange",
+          "musk",
+          "orange",
+          "orchid",
+          "patchouli",
+          "peach",
+          "pineapple",
+          "powdery notes",
+          "rose",
+          "sandalwood",
+          "tobacco",
+          "tropical fruits",
+          "vanilla"
+        ],
+        "score": 0.5434,
+        "explanation": "Close to Lattafa Ajwad, which you loved · Shares pineapple, rose and sandalwood with what you love"
+      }
+    ]
+  }
+]

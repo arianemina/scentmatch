@@ -99,9 +99,26 @@ def full_report(name: str, score_fn, data: EvalData, split: str, proc: Path, fee
     out["Personalisation@10"] = personalisation(rankings)
     out["TailShare@10"] = tail_share(rankings, data.popularity)
     seg = pd.read_parquet(proc / "user_segments.parquet").set_index("user_idx")["segment"]
+   
     for s in ("1", "2", "3-5", "6+"):
         us = [u for u in targets if seg.get(u) == s]
-        out[f"NDCG@10[{s}]"] = float(np.mean([ndcg_at_k(rankings[u], targets[u], 10) for u in us]))
+
+        out[f"NDCG@10[{s}]"] = (
+            float(np.mean([
+                ndcg_at_k(rankings[u], targets[u], 10)
+                for u in us
+            ]))
+            if us else None
+        )
+
+        out[f"Recall@20[{s}]"] = (
+            float(np.mean([
+                recall_at_k(rankings[u], targets[u], 20)
+                for u in us
+            ]))
+            if us else None
+        )
+
       
         out[f"Recall@20[{s}]"] = (
             float(np.mean([
