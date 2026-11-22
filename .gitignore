@@ -17,3 +17,6 @@ checkpoints/
 dist/
 .gstack/
 logs/demo.log
+
+# macOS metadata files unpacked from the release archive
+._*

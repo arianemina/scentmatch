@@ -7,6 +7,7 @@ set -e
 cd "$(dirname "$0")/.."
 export PYTHONPATH="$PWD/src${PYTHONPATH:+:$PYTHONPATH}"
 PY="python3"; [ -x .venv/bin/python ] && PY=".venv/bin/python"
+[ -x .venv/Scripts/python.exe ] && PY=".venv/Scripts/python.exe"   # Windows (Git Bash)
 CKPT="${SCENTMATCH_CHECKPOINT:-$($PY -c "import yaml;print(yaml.safe_load(open('configs/default.yaml'))['serving']['checkpoint'])")}"
 MODE="${SCENTMATCH_MODE:-model}"
 if [ "$MODE" = model ] && [ ! -f "checkpoints/$CKPT" ]; then
