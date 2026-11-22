@@ -1,7 +1,7 @@
 # ScentMatch
 
 ScentMatch recommends perfumes, and says why.
-- **New visitors** answer a 6-question quiz. Their answers become olfactory notes (vanilla, oud, bergamot…), and the app suggests perfumes.
+- **New visitors** answer a 7-question quiz (the last one, your favourite notes, is optional). Their answers become olfactory notes (vanilla, oud, bergamot…), and the app suggests perfumes.
 - **Every click counts.** "Love it" and "Not for me" are saved, and the selection is recomputed at once: more like what you loved, less like what you turned down. Changed your mind? Every choice can be undone or switched, from the selection or from the "Your collection" tab.
 - **Known users** get recommendations from **NLGCL**, a graph neural network (Xu et al., RecSys 2025) trained on Amazon reviews.
 - **Every recommendation is explained.** The score is a sum of visible parts: your notes, the perfumes you loved, what you rejected. Open "Why this perfume?" on any card.
@@ -27,6 +27,16 @@ git clone https://github.com/madmax0978/scentmatch.git && cd scentmatch
 python3.11 -m venv .venv && source .venv/bin/activate && pip install -r requirements.txt && pip install -e .
 scripts/fetch_release.sh && scripts/run_demo.sh
 ```
+
+On Windows, run the same steps in **Git Bash** (installed with Git for Windows) with Python 3.11 or 3.12:
+
+```bash
+git clone https://github.com/madmax0978/scentmatch.git && cd scentmatch
+py -3.11 -m venv .venv && source .venv/Scripts/activate && pip install -r requirements.txt && pip install -e .
+scripts/fetch_release.sh && scripts/run_demo.sh
+```
+
+Use `py -3.12` if 3.11 is not installed. Python 3.10 does not work: pandas 3.1 needs 3.11 or newer.
 
 Then open **http://localhost:8501**. `fetch_release.sh` downloads the prepared data and the trained model (about 30 MB) from the GitHub Release and checks their SHA-256.
 
