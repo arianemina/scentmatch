@@ -438,5 +438,5 @@ else:
 
 if health:
     st.markdown(f'<div class="sm-foot"><span>ScentMatch · Group 4 · NLGCL graph recommender</span>'
-                f'<span>{health["n_perfumes"]:,} perfumes · model: {esc(health["mode"])} · '
+                f'<span>{health["n_perfumes"]:,} perfumes · model: {esc(health.get("checkpoint") or health["mode"])} · '
                 f'{health["n_logged_interactions"]} interactions logged</span></div>', unsafe_allow_html=True)
